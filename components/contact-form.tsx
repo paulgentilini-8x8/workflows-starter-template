@@ -80,11 +80,11 @@ export function ContactForm() {
       <div className="relative overflow-hidden border-b border-border bg-gradient-to-br from-[#0d1b2e] to-[#131f35] px-6 py-8 sm:px-10">
         {/* Decorative gradient circle */}
         <div className="pointer-events-none absolute -right-10 -top-10 h-[200px] w-[200px] rounded-full bg-[radial-gradient(circle,rgba(0,198,255,0.12)_0%,transparent_70%)]" />
-        
+
         {/* Badge */}
         <div className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-primary/25 bg-primary/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-primary">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-primary" />
-          Professional Services
+          8x8 Professional Services
         </div>
 
         <h1 className="mb-3 font-serif text-[22px] font-normal leading-tight text-foreground sm:text-[26px]">
