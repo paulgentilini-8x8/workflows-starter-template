@@ -34,7 +34,7 @@ export async function POST(request: Request) {
     const toEmail = process.env.CONTACT_EMAIL || "delivered@resend.dev"
 
     const { data, error } = await resend.emails.send({
-      from: "AI Studio <onboarding@resend.dev>",
+      from: "AI Studio <gs-us-sow-request@8x8.com>",
       to: [toEmail],
       replyTo: email,
       subject: `New AI Studio Consulting Request from ${name}`,
