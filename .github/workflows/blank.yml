@@ -34,5 +34,7 @@ jobs:
         run: npm install
         run: npm run build
         run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: cfk_5pfPZrfMK9nUsgBcRDgrX1ClEkPvAnvHV4JzBehb2f910f86
           echo Add other actions to build,
           echo test, and deploy your project.
